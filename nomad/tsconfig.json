@@ -1,0 +1,16 @@
+{
+	"compileOptions": {
+		// try to use nodejs normally
+		"module": "commonjs",
+		// compile version of javascript
+		"target": "es6",
+		"sourceMap": true,
+		"rootDir": "src",
+        // compile 된 모든 것들 들어감
+        "outFile": "dist/index.js"
+	},
+	// what files to compile
+    // ts가 다 들어감
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
